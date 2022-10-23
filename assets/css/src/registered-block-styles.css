@@ -1,0 +1,169 @@
+/*
+ * CSS for registered block styles.
+ * See styles/register-block-styles.php.
+ */
+
+.is-style-kenzie-no-bg .wp-block-navigation__responsive-container-open,
+.is-style-kenzie-no-bg .wp-block-navigation__responsive-container-close,
+.is-style-kenzie-no-bg .wp-block-navigation__responsive-container-open:hover,
+.is-style-kenzie-no-bg .wp-block-navigation__responsive-container-close:hover,
+.is-style-kenzie-no-bg .wp-block-navigation__responsive-container-open:focus,
+.is-style-kenzie-no-bg .wp-block-navigation__responsive-container-close:focus
+.is-style-kenzie-no-bg .wp-block-navigation__responsive-container-open:visited,
+.is-style-kenzie-no-bg .wp-block-navigation__responsive-container-close:visited {
+	box-shadow: none;
+	border-radius: 0;
+	margin-top: initial;
+	margin-bottom: initial;
+	background: none;
+	border: none;
+}
+
+/* Flat button */
+.is-style-kenzie-flat-button .wp-block-button__link,
+.is-style-kenzie-flat-button .wp-block-button__link:hover,
+.is-style-kenzie-flat-button .wp-block-button__link:focus,
+.is-style-kenzie-flat-button .wp-block-button__link:active,
+.is-style-kenzie-flat-button .wp-block-button__link:visited,
+.is-style-kenzie-flat-button .wp-block-navigation__responsive-container-open,
+.is-style-kenzie-flat-button .wp-block-navigation__responsive-container-close,
+.is-style-kenzie-flat-button .wp-block-navigation__responsive-container-open:hover,
+.is-style-kenzie-flat-button .wp-block-navigation__responsive-container-close:hover,
+.is-style-kenzie-flat-button .wp-block-navigation__responsive-container-open:focus,
+.is-style-kenzie-flat-button .wp-block-navigation__responsive-container-close:focus
+.is-style-kenzie-flat-button .wp-block-navigation__responsive-container-open:visited,
+.is-style-kenzie-flat-button .wp-block-navigation__responsive-container-close:visited {
+	box-shadow: none;
+	border-radius: 0;
+	margin-top: initial;
+	margin-bottom: initial;
+}
+
+/* Button with shadow */
+.is-style-kenzie-shadow-button .wp-block-button__link,
+.is-style-kenzie-shadow-button .wp-block-button__link:hover,
+.is-style-kenzie-shadow-button .wp-block-button__link:focus,
+.is-style-kenzie-shadow-button .wp-block-button__link:visited {
+	box-shadow: var(--wp--custom--button-shadow);
+}
+
+.is-style-kenzie-shadow-button .wp-block-button__link:active {
+	box-shadow: var(--wp--custom--button-highlight);
+}
+
+/* Transparent button */
+.is-style-kenzie-no-bg .wp-block-button__link,
+.is-style-kenzie-no-bg .wp-block-button__link:hover,
+.is-style-kenzie-no-bg .wp-block-button__link:focus,
+.is-style-kenzie-no-bg .wp-block-button__link:active,
+.is-style-kenzie-no-bg .wp-block-button__link:visited,
+.is-style-kenzie-no-bg .wc-block-mini-cart__button {
+	box-shadow: none;
+	border-radius: 0;
+	margin-top: initial;
+	margin-bottom: initial;
+	background: none;
+	border: none;
+}
+
+/* Match the button border radius for consistency. */
+.is-style-kenzie-image-border-radius {
+	border-radius: var(--wp--custom--button-border-radius);
+}
+
+/* Text shadow */
+.is-style-kenzie-text-shadow {
+	text-shadow: var(--wp--custom--text-shadow);
+}
+
+/* Box shadow */
+.is-style-kenzie-box-shadow {
+	box-shadow: var(--wp--custom--box-shadow);
+}
+
+/* Lists*/
+.is-style-kenzie-list-underline li {
+	border-bottom: 1px solid currentcolor;
+}
+
+.is-style-kenzie-list-underline ul,
+.is-style-kenzie-list-underline ol {
+	border-top: 1px solid currentcolor;
+}
+
+.is-style-kenzie-list-underline ul li,
+.is-style-kenzie-list-underline ol li {
+	border: none;
+}
+
+/* Checklist */
+.is-style-kenzie-checklist,
+.is-style-kenzie-checklist li ul,
+.is-style-kenzie-checklist li ol {
+	list-style-type: none;
+}
+
+.is-style-kenzie-checklist li {
+	position: relative;
+}
+
+.is-style-kenzie-checklist li::before,
+.is-style-kenzie-checklist li ol li::before {
+	content: "\2713";
+	position: absolute;
+	top: 0;
+	left: -1.2em;
+}
+
+/* Shadow */
+.is-style-kenzie-list-shadow {
+	padding-left: 0;
+}
+
+.is-style-kenzie-list-shadow > li:not(.wp-block-navigation-item) {
+	list-style-type: none;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+	margin-bottom: 1rem;
+	padding: 0.4rem 1rem;
+	border-radius: var(--wp--custom--button-border-radius);
+}
+
+.is-style-kenzie-vertical-text {
+	writing-mode: vertical-lr;
+}
+
+.is-style-kenzie-skewed {
+	transform: rotate(-0.9deg);
+}
+
+.is-kenzie-overlay {
+	position: relative;
+}
+
+.kenzie-scroll-to-top {
+	transform: rotate(180deg);
+	filter: invert(100%);
+}
+
+/* Kept for backwards compatibility */
+.is-style-kenzie-no-gutter.wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image) {
+	margin: 0;
+}
+
+/** Add a border to the header pattern for the black and white variation */
+.kenzie-pattern-header-image figure img {
+	border: var(--wp--custom--kenzie-pattern-header-image);
+}
+
+@media ( max-width: 1024px ) {
+	.kenzie-pattern-circular-image-overlay .is-kenzie-overlay {
+		margin-top: -3rem;
+	}
+}
+
+.kenzie-style-heading-with-em em {
+	font-style: normal;
+	padding: 0 0.5rem;
+	background-color: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--foreground);
+}

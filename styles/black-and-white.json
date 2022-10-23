@@ -1,0 +1,25 @@
+{
+	"version": 2,
+	"title": "Off black and off white",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "background",
+					"color": "#fffffe",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#1d2327",
+					"name": "Foreground"
+				}
+			]
+		},
+		"custom": {
+			"text-shadow": "0 2px 2px rgba(0, 0, 0, 0.2);",
+			"button-shadow": "0 4px 4px 0 rgba(0, 0, 0, 0.2)",
+			"kenzie-pattern-header-image": "16px solid"
+		}
+	}
+}

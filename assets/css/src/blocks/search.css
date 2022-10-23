@@ -1,0 +1,29 @@
+.wp-block-search .wp-block-search__button {
+	font-size: var(--wp--preset--font-size--small);
+	font-family: var(--wp--preset--font-family--system);
+	line-height: 1.7;
+	background: var(--wp--preset--color--foreground);
+	color: var(--wp--preset--color--background);
+}
+
+.wp-block-search .wp-block-search__button:hover {
+	transform: scale(1.05);
+}
+
+.wp-block-search .wp-block-search__button:visited {
+	background-color: initial;
+}
+
+.wp-block-search button.wp-block-search__button {
+	margin-bottom: 0;
+}
+
+.wp-block-search button.wp-block-search__button svg {
+	vertical-align: middle;
+	min-width: 2em;
+	min-height: 2em;
+}
+
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+	border: none;
+}

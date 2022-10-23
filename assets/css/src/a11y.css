@@ -1,0 +1,96 @@
+*:focus-visible {
+	outline-color: var(--wp--preset--color--foreground);
+	outline-offset: 4px;
+}
+
+
+/* Do not show animations if the user prefers reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+
+	.is-style-kenzie-grow-button .wp-block-button__link,
+	.is-style-kenzie-pulse-button .wp-block-button__link {
+		transition: all .3s ease-in-out;
+	}
+
+	.is-style-kenzie-grow-button .wp-block-button__link:hover,
+	.is-style-kenzie-grow-button .wp-block-button__link:focus {
+		padding: 0.4rem 1rem;
+		font-size: 110%;
+	}
+
+	/* This animation works best if the border radius and width is unchanged.
+	* The pulse is the same color as the button text but with lower opacity.
+	*/
+	.is-style-kenzie-pulse-button .wp-block-button__link:hover::before,
+	.is-style-kenzie-pulse-button .wp-block-button__link:focus::before {
+		content: "";
+		position: absolute;
+		border: currentcolor solid 4px;
+		border-radius: var(--wp--custom--button-border-radius);
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		animation-duration: 1.6s;
+		opacity: 0;
+		animation-name: kenzie-pulse-button-border;
+	}
+
+	@keyframes kenzie-pulse-button-border {
+
+		0% {
+			top: -8px;
+			right: -8px;
+			bottom: -8px;
+			left: -8px;
+			opacity: 0.1;
+		}
+
+		100% {
+			top: -16px;
+			right: -16px;
+			bottom: -16px;
+			left: -16px;
+			opacity: 0;
+		}
+	}
+
+	.wp-block-image.is-style-kenzie-zoom-image,
+	.wp-block-image.is-style-kenzie-zoom-image div,
+	.wp-block-post-featured-image.is-style-kenzie-zoom-image,
+	.wp-block-post-featured-image.is-style-kenzie-zoom-image div {
+		overflow: hidden;
+	}
+
+	.wp-block-image.is-style-kenzie-zoom-image img,
+	.wp-block-post-featured-image.is-style-kenzie-zoom-image img {
+		transition: all .2s ease-in-out;
+	}
+
+	.wp-block-image.is-style-kenzie-zoom-image img:hover,
+	.wp-block-image.is-style-kenzie-zoom-image img:focus,
+	.wp-block-post-featured-image.is-style-kenzie-zoom-image img:hover,
+	.wp-block-post-featured-image.is-style-kenzie-zoom-image img:focus {
+		transform: scale(1.1);
+	}
+
+	.is-style-kenzie-slide-up {
+		animation-duration: 1.6s;
+		animation-name: kenzie-slide-up;
+	}
+
+	.block-editor-block-list__block.is-style-kenzie-slide-up {
+		animation-name: none;
+	}
+
+	@keyframes kenzie-slide-up {
+
+		from {
+			transform: translateY(2em);
+		}
+
+		to {
+			transform: translateY(0);
+		}
+	}
+}

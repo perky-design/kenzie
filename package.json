@@ -1,0 +1,37 @@
+{
+	"name": "kenzie",
+	"version": "1.0.0",
+	"description": "Full site editing theme with duo color.",
+	"author": "Joop Laan",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Theme"
+	],
+	"homepage": "https://perky.design",
+	"devDependencies": {
+		"@babel/core": "^7.18.0",
+		"@wordpress/babel-preset-default": "^6.11.0",
+		"@wordpress/eslint-plugin": "^12.3.0",
+		"@wordpress/stylelint-config": "^20.0.2",
+		"cssnano": "^5.1.13",
+		"eslint": "^8.16.0",
+		"gulp": "^4.0.2",
+		"gulp-clean": "^0.4.0",
+		"gulp-concat-css-safe": "^3.1.0",
+		"gulp-postcss": "^9.0.1",
+		"gulp-rename": "^2.0.0",
+		"postcss": "^8.4.18",
+		"prettier": "^2.6.2",
+		"stylelint": "^14.8.3"
+	},
+	"scripts": {
+		"lint:css": "stylelint **/*.css",
+		"lint-fix:css": "stylelint **/*.css --fix",
+		"preinstall": "npx npm-force-resolutions"
+	},
+	"resolutions": {
+		"glob-parent": "^6.0.1"
+	},
+	"dependencies": {}
+}

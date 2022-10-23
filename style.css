@@ -1,0 +1,107 @@
+/*
+Theme Name: Kenzie
+Author: Joop Laan / Perky Design
+Author URI: https://perky.design
+Theme URI:
+Description:
+Tags: full-site-editing, editor-style, block-styles, block-patterns, accessibility-ready
+Text Domain: kenzie
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 7.4
+Tested up to: 6.0.3
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+/* Styles intended only for the front.*/
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*
+* Sticky button is experimental,
+* only use it on the front for screens above 782px width.
+*/
+@media screen and (min-width: 782px) {
+
+	.is-style-kenzie-sticky {
+		position: fixed;
+		top: 2em;
+		right: 2em;
+	}
+
+	/* Move the fixed position down to adjust for the WordPress admin bar */
+	.admin-bar .is-style-kenzie-sticky {
+		top: calc(2em + 32px);
+	}
+
+	.is-style-kenzie-sticky-header {
+		position: sticky;
+		top: 0;
+		z-index: 999;
+	}
+
+	/* Move the sticky position down to adjust for the WordPress admin bar */
+	.admin-bar .is-style-kenzie-sticky-header {
+		top: 32px;
+	}
+
+}
+
+/*
+ * Increase horizontal padding on smaller screens.
+ * Temporary solution to avoid text content
+ * running up to the edge of the browser window,
+ * making the text difficult to read.
+*/
+@media ( max-width: 1024px ) {
+
+	main > :not(.alignfull),
+	.sidebar > :not(.alignfull),
+	main > .wp-block-query > :not(.alignfull),
+	main .entry-content > :not(.alignfull),
+	main .entry-content .wp-block-columns.alignfull p,
+	.woocommerce .woocommerce-breadcrumb,
+	.woocommerce :not(.related) > ul.products,
+	.sidebar .wp-block-query > :not(.alignfull),
+	.sidebar .entry-content > :not(.alignfull),
+	.sidebar .entry-content .wp-block-columns.alignfull p {
+		padding-left: var(--wp--custom--h-spacing);
+		padding-right: var(--wp--custom--h-spacing);
+	}
+}
+
+/* Hide the header block patterns on the paginated results. */
+.home.paged .kenzie-pattern-header-image {
+	display: none;
+}
+
+/* Hide selected sticky posts and paginated results. */
+body.query-block-paged .wp-block-query.kenzie-hide-sticky {
+	display: none;
+}
+
+.kenzie-blog-layout .wp-block-post-template li .wp-block-group:not(.kenzie-post-meta) {
+	height: 100%;
+}

@@ -1,0 +1,16 @@
+.wp-block-file .wp-block-file__button {
+	font-size: var(--wp--preset--font-size--small);
+	font-family: var(--wp--preset--font-family--system);
+	line-height: 1.7;
+	background: var(--wp--preset--color--foreground);
+	color: var(--wp--preset--color--background);
+	transition: transform 0.5s;
+}
+
+.wp-block-file .wp-block-file__button:hover {
+	transform: scale(1.05);
+}
+
+.wp-block-file .wp-block-file__button:visited {
+	background-color: initial;
+}

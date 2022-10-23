@@ -1,0 +1,919 @@
+# Copyright (C) 2022 Joop Laan / Perky Design
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kenzie 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/kenzie2\n"
+"POT-Creation-Date: 2022-10-22T17:47:13+00:00\n"
+"PO-Revision-Date: 2022-10-22 19:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Domain: kenzie\n"
+
+#. Theme Name of the theme
+msgid "Kenzie"
+msgstr "Kenzie"
+
+#. Author of the theme
+msgid "Joop Laan / Perky Design"
+msgstr "Joop Laan / Perky Ontwerp"
+
+#. Author URI of the theme
+msgid "https://perky.design"
+msgstr "https://perky.design"
+
+#. translators: %1$s: WordPress version. %2$s PHP version.
+#: inc/back-compat.php:36 inc/back-compat.php:52 inc/back-compat.php:77
+msgid ""
+"This theme requires at least WordPress version 6.0 and PHP version 7.4. You "
+"are running WordPress version %1$s and PHP version %2$s. Please upgrade and "
+"try again."
+msgstr ""
+"Dit thema vereist ten minste WordPress versie 6.0 en PHP versie 7.4. U "
+"gebruikt WordPress versie %1$s en PHP versie %2$s. Voer een upgrade uit en "
+"probeer het opnieuw."
+
+#: inc/filters.php:18
+msgctxt "Used if post or pages has no title"
+msgid "(No title)"
+msgstr "(Geen titel)"
+
+#: inc/filters.php:52
+msgid "Search"
+msgstr "Zoeken"
+
+#: inc/filters.php:54
+msgid "Open menu"
+msgstr "Open menu"
+
+#: inc/filters.php:54
+msgid "Open search"
+msgstr "Zoeken Openen"
+
+#: inc/filters.php:55
+msgid "Close menu"
+msgstr "Menu sluiten"
+
+#: inc/filters.php:55
+msgid "Close search"
+msgstr "Zoeken Sluiten"
+
+#: inc/filters.php:65
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/register-block-patterns.php:20
+msgid "Kenzie - Images"
+msgstr "Kenzie - Afbeeldingen"
+
+#: inc/register-block-patterns.php:25
+msgid "Kenzie - WooCommerce"
+msgstr "Kenzie - WooCommerce"
+
+#: inc/register-block-patterns.php:30
+msgid "Kenzie - Post and page headers"
+msgstr "Kenzie - Bericht- en paginakoppen"
+
+#: inc/register-block-patterns.php:35
+msgid "Kenzie - Pages"
+msgstr "Kenzie - Pagina's"
+
+#: inc/register-block-patterns.php:40
+msgid "Kenzie - Page Sections"
+msgstr "Kenzie - Pagina secties"
+
+#: inc/register-block-patterns.php:45
+msgid "Kenzie - Blog layouts"
+msgstr "Kenzie - Blog lay-outs"
+
+#: inc/register-block-patterns.php:50
+msgid "Kenzie - Site Footers"
+msgstr "Kenzie - Site Footers"
+
+#: inc/register-block-patterns.php:55
+msgid "Kenzie - Site Headers"
+msgstr "Kenzie - Site Headers"
+
+#: inc/woocommerce.php:45
+msgid "SALE"
+msgstr "SALE"
+
+#: patterns/404.php:15
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Het lijkt er op dat er hier niets gevonden is. Wellicht helpt de zoekfunctie?"
+
+#: patterns/404.php:23
+msgid "Latest posts"
+msgstr "Laatste berichten"
+
+#: patterns/about-me-page.php:13
+msgctxt "sample content"
+msgid "Example introduction. Add a greeting or your favorite catch phrase."
+msgstr ""
+"Voorbeeld introductie. Voeg een begroeting of je favoriete catch phrase toe."
+
+#: patterns/about-me-page.php:19 patterns/about-page-business.php:23
+msgctxt "sample content"
+msgid "Replace the text with your own image description."
+msgstr "Vervang de tekst door uw eigen afbeeldingsbeschrijving."
+
+#: patterns/about-me-page.php:28
+msgctxt "sample content"
+msgid ""
+"The about page is where you can share with your visitors who you are and "
+"what the purpose of your website is."
+msgstr ""
+"De about-pagina is waar u met uw bezoekers kunt delen wie u bent en wat het "
+"doel van uw website is."
+
+#: patterns/about-me-page.php:31
+msgctxt "sample content"
+msgid ""
+"Depending on what your goal is, you may want to include information about "
+"your education, your work experience, list of previous works or clients, and "
+"your location."
+msgstr ""
+"Afhankelijk van wat uw doel is, wilt u misschien informatie opnemen over uw "
+"opleiding, uw werkervaring, een lijst met eerdere werken of klanten en uw "
+"locatie."
+
+#: patterns/about-me-page.php:41 patterns/quote-with-image.php:15
+msgctxt "sample content"
+msgid "Add quote"
+msgstr "Citaat met aanhaling"
+
+#: patterns/about-me-page.php:41 patterns/quote-with-image.php:16
+msgctxt "sample content"
+msgid "Add citation"
+msgstr "Bronvermelding toevoegen"
+
+#: patterns/about-me-page.php:54 patterns/about-me-page.php:64
+#: patterns/about-me-page.php:76 patterns/about-me-page.php:90
+#: patterns/about-me-page.php:109 patterns/about-page-business.php:56
+#: patterns/about-page-business.php:66 patterns/about-page-business.php:78
+#: patterns/about-page-business.php:92 patterns/about-page-business.php:111
+#: patterns/circular-image-overlay-with-heading.php:31 patterns/cta-3.php:21
+#: patterns/image-text-overlay-bottom.php:22
+msgctxt "sample content"
+msgid "Example heading"
+msgstr "Voorbeeld kop"
+
+#: patterns/about-me-page.php:57 patterns/about-page-business.php:59
+msgctxt "sample content"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+#: patterns/about-me-page.php:60 patterns/about-page-business.php:31
+#: patterns/about-page-business.php:39 patterns/about-page-business.php:62
+msgctxt "sample content"
+msgid ""
+"Cras malesuada, lectus id condimentum pretium, est mi finibus quam, id "
+"lobortis dolor est in ex. Curabitur congue sapien ut enim facilisis aliquam. "
+"Pellentesque nec lorem velit."
+msgstr ""
+"Cras malesuada, lectus id condimentum pretium, est mi finibus quam, id "
+"lobortis dolor est in ex. Curabitur congue sapien ut enim facilisis aliquam. "
+"Pellentesque nec lorem velit."
+
+#: patterns/about-me-page.php:67 patterns/about-me-page.php:84
+#: patterns/about-me-page.php:98 patterns/about-me-page.php:117
+#: patterns/about-page-business.php:69 patterns/about-page-business.php:86
+#: patterns/about-page-business.php:100 patterns/about-page-business.php:119
+msgctxt "sample content"
+msgid "Example paragraph, replace this with your own text."
+msgstr "Voorbeeld alinea, vervang deze door je eigen tekst."
+
+#: patterns/about-page-business.php:14
+msgctxt "sample content"
+msgid "Example heading with company name, greeting, or slogan"
+msgstr "Voorbeeldkop met bedrijfsnaam, begroeting of slogan"
+
+#: patterns/about-page-business.php:17
+msgctxt "sample content"
+msgid "Describe your business and your selling points."
+msgstr "Beschrijf uw bedrijf en uw verkoopargumenten."
+
+#: patterns/about-page-business.php:47
+msgctxt "sample content"
+msgid "Add your cover image and phrase here."
+msgstr "Voeg hier je omslagafbeelding en -zin toe."
+
+#: patterns/about-page-business.php:129
+msgctxt "sample content"
+msgid "Get to know us on social media:"
+msgstr "Leer ons kennen op social media:"
+
+#: patterns/arrows.php:17
+msgctxt "sample content, arrow up unicode"
+msgid "🡅"
+msgstr "🡅"
+
+#: patterns/arrows.php:20
+msgctxt "sample content, arrow down unicode"
+msgid "🡇"
+msgstr "🡇"
+
+#: patterns/arrows.php:23
+msgctxt "sample content, arrow right unicode"
+msgid "🡆"
+msgstr "🡆"
+
+#: patterns/arrows.php:26
+msgctxt "sample content, arrow left unicode"
+msgid "🡄"
+msgstr "🡄"
+
+#: patterns/blog-layout-2.php:20 patterns/blog-layout-3.php:18
+#: patterns/blog-layout-4.php:16 patterns/blog-layout-5.php:26
+msgctxt "sample content"
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: patterns/blog-layout-3.php:32 patterns/blog-layout-5.php:39
+msgctxt "sample content"
+msgid "Latest"
+msgstr "Laatste"
+
+#: patterns/blog-layout-4.php:27
+msgctxt "sample content"
+msgid "Featured product"
+msgstr "Uitgelicht product"
+
+#: patterns/blog-layout-4.php:33
+msgctxt "sample content"
+msgid "From the blog"
+msgstr "Uit het blog"
+
+#: patterns/circular-cover.php:13
+msgid "Circular cover block with heading"
+msgstr "Cirkelvormig afdekblok met kop"
+
+#: patterns/circular-image-overlay-with-heading.php:35
+#: patterns/woo-featured-product-custom-text.php:23
+msgctxt "sample content"
+msgid ""
+"Add your custom product details here. You can also add extra images and "
+"change colors."
+msgstr ""
+"Voeg hier uw aangepaste productdetails toe. U kunt ook extra afbeeldingen "
+"toevoegen en kleuren wijzigen."
+
+#: patterns/circular-image-overlay-with-heading.php:40 patterns/cta-3.php:28
+msgctxt "sample content"
+msgid "Call to Action button"
+msgstr "Call to Action knop"
+
+#: patterns/circular-image.php:27 patterns/dual-images.php:20
+msgctxt "sample content"
+msgid "Create your <em>website</em> <br/>with blocks."
+msgstr "Maak uw <em>website</em> <br/>met blokken."
+
+#: patterns/columns-with-images.php:19 patterns/columns-with-images.php:24
+#: patterns/columns-with-images.php:35
+#: patterns/section-featured-image-background.php:34
+#: patterns/section-featured-image-background.php:42
+#: patterns/service-sections.php:23 patterns/service-sections.php:39
+#: patterns/service-sections.php:55
+msgctxt "sample content"
+msgid "Sample content. Replace the text with your own content."
+msgstr "Voorbeeldinhoud. Vervang de tekst door uw eigen inhoud."
+
+#: patterns/contact-form.php:15 patterns/contact.php:15
+#: patterns/site-footer-extra-tall.php:35
+msgctxt "sample content"
+msgid "Contact"
+msgstr "Contact"
+
+#: patterns/contact-form.php:18 patterns/contact.php:18
+msgctxt "sample content"
+msgid "How can we help you?"
+msgstr "Hoe kunnen wij u helpen?"
+
+#: patterns/contact-form.php:25 patterns/contact.php:38
+msgctxt "sample content"
+msgid "Company name"
+msgstr "Bedrijfsnaam"
+
+#: patterns/contact-form.php:28 patterns/contact.php:41
+msgctxt "sample content"
+msgid "Location"
+msgstr "Locatie"
+
+#: patterns/contact-form.php:31 patterns/contact.php:44
+msgctxt "sample content"
+msgid "By appointment only:"
+msgstr "Enkel op afspraak:"
+
+#: patterns/contact-form.php:34 patterns/contact.php:47
+msgctxt "sample content"
+msgid "Company street address line one<br>Company street address line two"
+msgstr "Bedrijfsadres lijn één<br>Bedrijfsadres lijn twee"
+
+#: patterns/contact-form.php:37 patterns/contact.php:50
+msgctxt "sample content"
+msgid "Postal adress"
+msgstr "Postadres"
+
+#: patterns/contact-form.php:40 patterns/contact.php:53
+msgctxt "sample content"
+msgid "Company postal address line one<br>Company postal address line two"
+msgstr ""
+"Postadres van het bedrijf regel één<br>Postadres van het bedrijf regel twee"
+
+#: patterns/contact-form.php:43 patterns/contact.php:56
+msgctxt "sample content"
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
+#: patterns/contact-form.php:46 patterns/contact.php:59
+msgctxt "sample content"
+msgid "00-00 00 00"
+msgstr "00-00 00 00"
+
+#: patterns/contact-form.php:49 patterns/contact.php:62
+msgctxt "sample content"
+msgid "Email"
+msgstr "E-mail"
+
+#: patterns/contact-form.php:52 patterns/contact.php:65
+msgctxt "sample content"
+msgid "<strong>General enquires:</strong> info@example.com"
+msgstr "<strong>Algemene vragen:</strong> info@example.com"
+
+#: patterns/contact-form.php:55 patterns/contact.php:68
+msgctxt "sample content"
+msgid "<strong>Marketing:</strong> marketing@example.com"
+msgstr "<strong>Marketing:</strong> marketing@example.com"
+
+#: patterns/contact.php:21
+msgctxt "sample content"
+msgid "I want to:"
+msgstr "Ik wil:"
+
+#: patterns/contact.php:25
+msgctxt "sample content"
+msgid "Get product support"
+msgstr "Productondersteuning"
+
+#: patterns/contact.php:28
+msgctxt "sample content"
+msgid "Ask about accounts and billing"
+msgstr "Vragen naar inloggegeves en facturering"
+
+#: patterns/contact.php:31
+msgctxt "sample content"
+msgid "Work at {add your company name}"
+msgstr "Werken bij {voeg uw bedrijfsnaam toe}"
+
+#: patterns/cta-1.php:17
+msgctxt "sample content"
+msgid "Get notified of our latest offers and new products"
+msgstr "Blijf op de hoogte van onze nieuwste aanbiedingen en nieuwe producten"
+
+#: patterns/cta-1.php:22
+msgctxt "sample content"
+msgid "Subscribe"
+msgstr "Inschrijven"
+
+#: patterns/cta-2.php:17
+msgctxt "sample content"
+msgid "Need help?"
+msgstr "Hulp nodig?"
+
+#: patterns/cta-2.php:22
+msgctxt "sample content"
+msgid "Visit our support forum"
+msgstr "Bezoek ons supportforum"
+
+#: patterns/cta-2.php:27
+msgctxt "sample content"
+msgid "Contact Support"
+msgstr "Neem contact op met support"
+
+#: patterns/cta-3.php:24
+msgctxt "sample content"
+msgid "Add your custom product details here."
+msgstr "Voeg hier uw aangepaste productdetails toe."
+
+#: patterns/dual-images.php:36
+msgctxt "sample content"
+msgid "Content"
+msgstr "Inhoud"
+
+#: patterns/faq.php:16
+msgctxt "sample content"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: patterns/faq.php:20
+msgctxt "sample content"
+msgid "Learn more about our services"
+msgstr "Meer informatie over onze diensten"
+
+#: patterns/faq.php:27 patterns/faq.php:42
+msgctxt "sample content"
+msgid "Topic"
+msgstr "Onderwerp"
+
+#: patterns/faq.php:31 patterns/faq.php:45
+msgctxt "sample content"
+msgid "Question one?"
+msgstr "Vraag één?"
+
+#: patterns/faq.php:31 patterns/faq.php:45
+msgctxt "sample content"
+msgid "Add your answer here"
+msgstr "Voeg hier je antwoord toe"
+
+#: patterns/faq.php:31 patterns/faq.php:45
+msgctxt "sample content"
+msgid "Question two?"
+msgstr "Vraag twee?"
+
+#: patterns/faq.php:31 patterns/faq.php:45
+msgctxt "sample content"
+msgid "Question three?"
+msgstr "Vraag drie?"
+
+#: patterns/footer-buttons.php:16
+msgid "Go to search page"
+msgstr "Ga naar de zoekpagina"
+
+#: patterns/footer-buttons.php:21
+msgid "Go to top"
+msgstr "Naar bovenkant"
+
+#: patterns/footer-links-basic.php:16 patterns/footer-links-full-width.php:16
+#: patterns/footer-links-wide.php:16 patterns/footer-links.php:15
+msgid "Copyright"
+msgstr "Copyright"
+
+#: patterns/footer-links-basic.php:16 patterns/footer-links-full-width.php:16
+#: patterns/footer-links-wide.php:16 patterns/footer-links.php:15
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#: patterns/image-text-overlay-bottom.php:26
+msgctxt "sample content"
+msgid "Example text"
+msgstr "Voorbeeld tekst"
+
+#: patterns/promise-bar.php:17
+msgctxt "sample content"
+msgid "1-3 day delivery"
+msgstr "1-3 dagen levertijd"
+
+#: patterns/promise-bar.php:22
+msgctxt "sample content"
+msgid "Free returns"
+msgstr "Gratis retourzending"
+
+#: patterns/promise-bar.php:27
+msgctxt "sample content"
+msgid "30 day money back guarantee"
+msgstr "30 dagen geld terug garantie"
+
+#: patterns/promise-bar.php:32
+msgctxt "sample content"
+msgid "Two year warranty"
+msgstr "Twee jaar garantie"
+
+#. translators: %s: Search term.
+#: patterns/search.php:18
+msgid "Search results for \"%s\""
+msgstr "Zoekresultaten voor \"%s\""
+
+#. translators: %s: Search term.
+#: patterns/search.php:18
+msgid "Search results"
+msgstr "Zoekresultaten"
+
+#: patterns/section-featured-image-background.php:25
+msgctxt "sample content"
+msgid "Subheading"
+msgstr "Subheading"
+
+#: patterns/section-featured-image-background.php:28
+msgctxt "sample content"
+msgid "Sample content. Replace the example cover block with your own image."
+msgstr ""
+"Voorbeeldinhoud. Vervang het voorbeeld omslagblok door uw eigen afbeelding."
+
+#: patterns/section-featured-image-background.php:37
+#: patterns/section-featured-image-background.php:45
+msgctxt "sample content"
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et quam vel "
+"mi sodales euismod nec quis odio."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et quam vel "
+"mi sodales euismod nec quis odio."
+
+#: patterns/service-sections.php:17 patterns/service-sections.php:33
+#: patterns/service-sections.php:49
+msgctxt "sample content"
+msgid "Heading"
+msgstr "Kop"
+
+#: patterns/service-sections.php:27 patterns/service-sections.php:43
+#: patterns/service-sections.php:59
+msgctxt "sample content"
+msgid "Button"
+msgstr "Knop"
+
+#: patterns/site-footer-extra-tall.php:26
+msgctxt "sample content"
+msgid "About"
+msgstr "Over"
+
+#: patterns/site-footer-extra-tall.php:31
+msgctxt "sample content"
+msgid "Add information about you, your business or your website."
+msgstr "Voeg informatie toe over u, uw bedrijf of uw website."
+
+#: patterns/site-footer-extra-tall.php:39
+msgctxt "sample email"
+msgid "example@example.com"
+msgstr "example@example.com"
+
+#: patterns/site-footer-extra-tall.php:45
+#: patterns/site-footer-extra-tall.php:62
+msgctxt "sample content"
+msgid "Footer sub-heading"
+msgstr "Voettekst subkop"
+
+#: patterns/site-footer-extra-tall.php:49
+#: patterns/site-footer-extra-tall.php:66
+msgctxt "sample content"
+msgid "Add a list of links to your most important content or categories here."
+msgstr ""
+"Voeg hier een lijst met links naar uw belangrijkste inhoud of categorieën "
+"toe."
+
+#: patterns/site-footer-extra-tall.php:52
+#: patterns/site-footer-extra-tall.php:70
+msgctxt "sample content"
+msgid "Item 2"
+msgstr "2e item"
+
+#: patterns/site-footer-extra-tall.php:56
+#: patterns/site-footer-extra-tall.php:73
+msgctxt "sample content"
+msgid "Item 3"
+msgstr "Item 3"
+
+#: patterns/site-footer-extra-tall.php:78
+msgctxt "sample content"
+msgid "Our newest product"
+msgstr "Ons nieuwste product"
+
+#: patterns/testimonials.php:20 patterns/testimonials.php:28
+#: patterns/testimonials.php:37
+msgctxt "sample content"
+msgid "Add your testimonial here"
+msgstr "Voeg hier uw testimonial toe"
+
+#: patterns/testimonials.php:20 patterns/testimonials.php:28
+#: patterns/testimonials.php:37
+msgctxt "sample content"
+msgid "Customer name"
+msgstr "Klantnaam"
+
+#: patterns/top-bar.php:16
+msgctxt "sample content"
+msgid "Get 10% off with discount code #KENZIE20"
+msgstr "Ontvang 10% off met kortingscode #KENZIE20"
+
+#: patterns/two-buttons.php:14
+msgctxt "sample content"
+msgid ""
+"Example paragraph, replace this with your own text.<br>You can use different "
+"colored buttons for your primary and secondary call to actions."
+msgstr ""
+"Voorbeeld alinea, vervang deze door je eigen tekst.<br>U kunt verschillende "
+"gekleurde knoppen gebruiken voor uw primaire en secundaire call-to-actions."
+
+#: patterns/two-buttons.php:19
+msgctxt "sample content"
+msgid "Button one"
+msgstr "Knop één"
+
+#: patterns/two-buttons.php:23
+msgctxt "sample content"
+msgid "Button two"
+msgstr "Knop twee"
+
+#: patterns/woo-featured-product-custom-text.php:20
+#: patterns/woo-featured-product-video-background.php:26
+msgctxt "sample content"
+msgid "Product name"
+msgstr "Productnaam"
+
+#: patterns/woo-featured-product-video-background.php:29
+msgctxt "sample content"
+msgid ""
+"Add your custom product details here. To add the product video background, "
+"select the cover block and Add Media."
+msgstr ""
+"Voeg hier uw aangepaste productdetails toe. Als u de achtergrond van de "
+"productvideo wilt toevoegen, selecteert u het omslagblok en Voegt u Media "
+"toe."
+
+#: patterns/woo-featured-products-column.php:17
+msgctxt "sample content"
+msgid "Featured products"
+msgstr "Uitgelichte producten"
+
+#: patterns/woo-featured-products-column.php:25
+msgctxt "sample content"
+msgid "Add shop link"
+msgstr "Winkellink toevoegen"
+
+#: patterns/woo-newsletter-and-featured-products.php:21
+msgid "5% off on your first purchase when you sign up for our Newsletter"
+msgstr ""
+"5% off bij uw eerste aankoop wanneer u zich aanmeldt voor onze nieuwsbrief"
+
+#: patterns/woo-newsletter-and-featured-products.php:26
+msgid "Signup"
+msgstr "Aanmelden"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra small"
+msgstr "Extra smal"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Klein"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Medium"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Groot"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XL"
+msgstr "XL"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XXL"
+msgstr "XXL"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XXXL"
+msgstr "XXXL"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XXXXL"
+msgstr "XXXXL"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XXXXXL"
+msgstr "XXXXXL"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System (Apple System, Roboto, Segoe UI, Ubuntu, sans-serif)"
+msgstr "System (Apple System, Roboto, Segoe UI, Ubuntu, sans-serif)"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Serif (Times New Roman, Noto Serif)"
+msgstr "Serif (Times New Roman, Noto Serif)"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Monospace (Consolas, SF Mono, Roboto Mono)"
+msgstr "Monoruimte (Consolas, SF Mono, Roboto Mono)"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Oswald"
+msgstr "Oswald"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Playfair Display"
+msgstr "Playfair Display"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Lora"
+msgstr "Lora"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Caveat"
+msgstr "Caveat"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "Achtergrond"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr "Voorgrond"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Transparent"
+msgstr "Transparant"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Background and foreground"
+msgstr "Achtergrond en voorgrond"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and background"
+msgstr "Voorgrond en achtergrond"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "No title"
+msgstr "Geen titel"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr "Leeg"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Split design with featured image and post title"
+msgstr "Gesplitst ontwerp met uitgelichte afbeelding en berichttitel"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Full width featured image above post title"
+msgstr ""
+"Uitgelichte afbeelding over de volledige breedte boven de titel van het "
+"bericht"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Featured image centered above post title"
+msgstr "Uitgelichte afbeelding gecentreerd boven de titel van het bericht"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Full screen featured image cover block with post title"
+msgstr "Volledig scherm uitgelicht afbeeldingsblok met berichttitel"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "WooCommerce product archive (Requires WooCommerce Blocks plugin)"
+msgstr "WooCommerce productarchief (vereist WooCommerce Blocks plugin)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "WooCommerce single product (Requires WooCommerce)"
+msgstr "WooCommerce enkel product (vereist WooCommerce)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "WooCommerce cart (Requires WooCommerce Blocks plugin)"
+msgstr "WooCommerce-winkelwagen (vereist WooCommerce Blocks-plug-in)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "WooCommerce checkout (Requires WooCommerce Blocks plugin)"
+msgstr "WooCommerce checkout (Vereist WooCommerce Blocks plugin)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "WooCommerce product category archive (Requires WooCommerce)"
+msgstr "WooCommerce product category archive (Vereist WooCommerce)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "WooCommerce product tag archive (Requires WooCommerce)"
+msgstr "WooCommerce product tag archief (vereist WooCommerce)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "WooCommerce product search result (Requires WooCommerce)"
+msgstr "WooCommerce product zoekresultaat (Vereist WooCommerce)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sticky Header"
+msgstr "Sticky Header"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sticky Header with Mini Cart (Requires WooCommerce Blocks)"
+msgstr "Sticky Header met Mini Cart (Vereist WooCommerce Blocks)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Transparent header with sticky menu button"
+msgstr "Transparante Header met sticky menuknop"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header with right-aligned menu"
+msgstr "Header met rechts uitgelijnd menu"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header with large logo"
+msgstr "Header met groot logo"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header with centered menu"
+msgstr "Header met gecentreerd menu"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Full width header"
+msgstr "Koptekst over de volledige breedte"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Wide header"
+msgstr "Brede Header"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Narrow header"
+msgstr "Smalle Header"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header with featured image as background"
+msgstr "Header met uitgelichte afbeelding als achtergrond"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Footer"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer without search and scroll to top links"
+msgstr "Footer zonder zoeken en scroll naar de top links"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Wide footer"
+msgstr "Brede footer"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Full width footer"
+msgstr "Footer over de volledige breedte"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Extra tall footer with 4 columns"
+msgstr "Extra hoge footer met 4 kolommen"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Mini Cart (requires WooCommerce Blocks)"
+msgstr "Mini Cart (vereist WooCommerce Blocks)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Top bar. Announcement bar for the header area"
+msgstr "Top header. Aankondigingsbalk voor het header-gebied"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Ecommerce Promise bar. Announcement bar for the shop area"
+msgstr "E-commerce belofte balk. Aankondigingsbalk voor het winkelgedeelte"
