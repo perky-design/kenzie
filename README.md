@@ -1,5 +1,7 @@
 # Kenzie
 
+![Screenshot showing Kenzie theme](https://raw.githubusercontent.com/perky-design/kenzie/main/screenshot.png)
+
 Contributors: Joop Laan
 Tested up to: 6.0
 Requires at least: 6.0
@@ -36,22 +38,22 @@ GNU General Public License for more details.
 
 ## Resources used to build this theme
 
-* Jace theme (C) Carolina Nymark
+* [Jace theme](https://wordpress.org/themes/jace/) (C) Carolina Nymark
 License: GNU General Public License v2.0 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-* Full site editing starter theme by Carolina Nymark
-https://fullsiteediting.com
+* [Full site editing starter theme](https://fullsiteediting.com) by Carolina Nymark
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 ### Images
 
 Images from pxhere.com. Public domain:
-https://pxhere.com/en/photo/1505971 -girl-expressive.jpg
-https://pxhere.com/en/photo/1260585 -girl-headphones.jpg
-https://pxhere.com/en/photo/487940 -man-smile.jpg
-https://pxhere.com/en/photo/1447185 -woman-curls.jpg
+
+* https://pxhere.com/en/photo/1505971 -girl-expressive.jpg
+* https://pxhere.com/en/photo/1260585 -girl-headphones.jpg
+* https://pxhere.com/en/photo/487940 -man-smile.jpg
+* https://pxhere.com/en/photo/1447185 -woman-curls.jpg
 
 Product images from WooCommerce:
 Copyright: WooThemes and the contributors.
