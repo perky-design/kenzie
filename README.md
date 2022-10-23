@@ -1,5 +1,7 @@
 # Kenzie
 
+![Screenshot showing Kenzie theme](https://raw.githubusercontent.com/perky-design/kenzie/main/screenshot.png)
+
 Contributors: Joop Laan
 Tested up to: 6.0
 Requires at least: 6.0
