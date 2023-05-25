@@ -97,6 +97,26 @@ function kenzie_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'kenzie_styles' );
 
+/**
+ * Create a sticky variations of the header and navigation block.
+ *
+ * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-variations/
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+function kenzie_register_app_js() {
+	wp_enqueue_script(
+		'kenzie-app',
+		get_template_directory_uri() . '/assets/js/app.js',
+		array(),
+		KENZIE_VERSION,
+		true
+	);
+}
+add_action( 'init', 'kenzie_register_app_js' );
+
 // Filters.
 require_once get_theme_file_path( 'inc/filters.php' );
 

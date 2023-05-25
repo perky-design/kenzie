@@ -70,16 +70,3 @@ function kenzie_search_icon( $html, $block ) {
 
 add_filter( 'render_block', 'kenzie_search_icon', 10, 2 );
 
-
-/**
- * Add the #top id to the body class.
- *
- * @param string $classes  The string with CSS class names.
- * @return string Updated string with CSS class names.
- * @since 1.0.5
- */
-function kenzie_add_top_id_body( $classes ) {
-	echo ' id="top" ';
-	return $classes;
-}
-add_filter( 'body_class', 'kenzie_add_top_id_body' );
