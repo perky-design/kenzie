@@ -18,7 +18,7 @@
 <!-- /wp:spacer -->
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"3rem"}},"className":"kenzie-pattern-header-image","layout":{"type":"flex","allowOrientation":false,"justifyContent":"center"}} -->
 <div class="wp-block-group alignwide kenzie-pattern-header-image"><!-- wp:image {"width":400,"height":400,"sizeSlug":"full","linkDestination":"none","style":{"color":{}},"className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/woman-curls.jpg' ) ); ?>" alt="" width="400" height="400"/></figure>
+<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/woman-curls.jpg' ) ); ?>" alt="<?php _e( 'Woman with curls', 'kenzie' ); ?>" width="400" height="400"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textColor":"background","className":"has-xxx-large-font-size kenzie-style-heading-with-em"} -->
 <h2 class="has-xxx-large-font-size has-background-color has-text-color kenzie-style-heading-with-em">
