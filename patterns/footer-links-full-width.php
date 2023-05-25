@@ -12,7 +12,7 @@
 <!-- wp:group {"align":"full","layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"}} -->
 <div class="wp-block-group alignfull">
 <!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} --><div class="wp-block-group">
-<!-- wp:paragraph {"fontSize":"extra-small"} --><p class="has-extra-small-font-size"><?php echo esc_html_x( 'Copyright', 'Footer copyright', 'kenzie' ) . ' ' . esc_html( date_i18n( Y, current_time( 'timestamp' ) ) ); ?></p><!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"extra-small"} --><p class="has-extra-small-font-size"><?php echo esc_html_x( 'Copyright', 'Footer copyright', 'kenzie' ) . ' ' . date_i18n( Y, current_time( 'timestamp' ) ) ; ?></p><!-- /wp:paragraph -->
 <!-- wp:site-title {"level":0, "fontSize":"extra-small"} /-->
 <?php
 if ( get_the_privacy_policy_link() ) {
