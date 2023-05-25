@@ -16,11 +16,11 @@
 <div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:group {"style":{"spacing":{"blockGap":"-160px"}},"className":"kenzie-pattern-circular-image-overlay","layout":{"inherit":true}} -->
 <div class="wp-block-group kenzie-pattern-circular-image-overlay"><!-- wp:image {"align":"center","width":413,"height":413,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image aligncenter size-large is-resized is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/girl-expressive.jpg' ) ); ?>" alt="" width="413" height="413"/></figure>
+<figure class="wp-block-image aligncenter size-large is-resized is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/girl-expressive.jpg' ) ); ?>" alt="<?php _e( 'Expressive girl', 'kenzie' ); ?>" width="413" height="413"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","width":138,"height":138,"sizeSlug":"medium","linkDestination":"none","className":"is-style-rounded is-kenzie-overlay"} -->
-<figure class="wp-block-image alignright size-medium is-resized is-style-rounded is-kenzie-overlay"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/woman-curls.jpg' ) ); ?>" alt="" width="138" height="138"/></figure>
+<figure class="wp-block-image alignright size-medium is-resized is-style-rounded is-kenzie-overlay"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/woman-curls.jpg' ) ); ?>" alt="<?php _e( 'Woman with curls', 'kenzie' ); ?>" width="138" height="138"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
