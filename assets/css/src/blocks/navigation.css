@@ -77,12 +77,13 @@ button.wp-block-navigation__responsive-container-open:visited {
 }
 
 .is-kenzie-search-modal button.wp-block-navigation__responsive-container-close {
+	color: var(--wp--preset--color--foreground);
 	background-color: var(--wp--preset--color--background);
 }
 
 .is-kenzie-search-modal button.wp-block-navigation__responsive-container-close:hover {
-	color: var(--wp--preset--color--foreground) !important;
-	background-color: var(--wp--preset--color--background) !important;
+	color: var(--wp--preset--color--foreground);
+	background-color: var(--wp--preset--color--background);
 }
 
 .is-kenzie-search-modal .wp-block-search .wp-block-search__button:focus {
