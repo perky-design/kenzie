@@ -21,7 +21,7 @@
 <figure class="wp-block-image size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/woman-curls.jpg' ) ); ?>" alt="<?php _e( 'Woman with curls', 'kenzie' ); ?>" width="400" height="400"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textColor":"background","className":"has-xxx-large-font-size kenzie-style-heading-with-em"} -->
-<h2 class="has-xxx-large-font-size has-background-color has-text-color kenzie-style-heading-with-em">
+<h1 class="has-xxx-large-font-size has-background-color has-text-color kenzie-style-heading-with-em">
 	<?php
 		echo wp_kses(
 			_x( 'Create your <em>website</em> <br/>with blocks.', 'sample content', 'kenzie' ),
@@ -31,7 +31,7 @@
 			)
 		);
 		?>
-</h2>
+</h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 <!-- wp:spacer {"height":"40px"} -->
