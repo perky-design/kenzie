@@ -6,7 +6,7 @@ Theme URI: https://github.com/perky-design/kenzie
 Description: A duo tone block theme. Only background and foreground colors are used.
 Tags: full-site-editing, editor-style, block-styles, block-patterns, accessibility-ready
 Text Domain: kenzie
-Version: 1.0.5
+Version: 1.0.6
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 6.2
@@ -76,7 +76,6 @@ body {
  * making the text difficult to read.
 */
 @media ( max-width: 1024px ) {
-
 	main > :not(.alignfull),
 	.sidebar > :not(.alignfull),
 	main > .wp-block-query > :not(.alignfull),
