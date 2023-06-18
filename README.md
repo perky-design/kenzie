@@ -15,7 +15,7 @@ A duo tone WordPress theme. Only background and foreground colors are used.
 
 ## Changelog
 
-1.1.0 Add pattern and fix bugs
+1.1.0 Add pattern, add theme style, and bug fixes.
 1.0.0 Initial release
 
 ## Known issues
