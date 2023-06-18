@@ -54,6 +54,7 @@ Images from pxhere.com. Public domain:
 * https://pxhere.com/en/photo/1260585 -girl-headphones.jpg
 * https://pxhere.com/en/photo/487940 -man-smile.jpg
 * https://pxhere.com/en/photo/1447185 -woman-curls.jpg
+* https://pxhere.com/en/photo/1452455 -girl-curious.jpg
 
 Product images from WooCommerce:
 Copyright: WooThemes and the contributors.
