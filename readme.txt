@@ -12,6 +12,8 @@ A duo tone theme. Only background and foreground colors are used.
 
 == Changelog ==
 
+1.1.0 Add pattern and fix bugs
+
 1.0.0 Initial release
 
 == Known issues ==
