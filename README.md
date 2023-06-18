@@ -15,6 +15,7 @@ A duo tone WordPress theme. Only background and foreground colors are used.
 
 ## Changelog
 
+1.1.0 Add pattern, add theme style, and bug fixes.
 1.0.0 Initial release
 
 ## Known issues
@@ -54,6 +55,7 @@ Images from pxhere.com. Public domain:
 * https://pxhere.com/en/photo/1260585 -girl-headphones.jpg
 * https://pxhere.com/en/photo/487940 -man-smile.jpg
 * https://pxhere.com/en/photo/1447185 -woman-curls.jpg
+* https://pxhere.com/en/photo/1452455 -girl-curious.jpg
 
 Product images from WooCommerce:
 Copyright: WooThemes and the contributors.

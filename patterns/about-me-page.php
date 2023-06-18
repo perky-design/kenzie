@@ -3,7 +3,6 @@
  * Title: About me
  * Slug: kenzie/about-me-page
  * Categories: kenzie-pages
- * Block Types: core/post-content
  *
  * @package kenzie
  * @since 1.0.0

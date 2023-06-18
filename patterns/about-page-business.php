@@ -3,7 +3,6 @@
  * Title: About page
  * Slug: kenzie/about-page-business
  * Categories: kenzie-pages
- * Block Types: core/post-content
  *
  * @package kenzie
  * @since 1.0.0

@@ -3,7 +3,6 @@
  * Title: Contact page with form
  * Slug: kenzie/contact-form
  * Categories: kenzie-pages
- * Block Types: core/heading, core/group, core/post-content
  * Keywords: contact, form, contact form 7
  *
  * @package kenzie
