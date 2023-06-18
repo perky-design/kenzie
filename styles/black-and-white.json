@@ -19,7 +19,24 @@
 		"custom": {
 			"text-shadow": "0 2px 2px rgba(0, 0, 0, 0.2);",
 			"button-shadow": "0 4px 4px 0 rgba(0, 0, 0, 0.2)",
-			"kenzie-pattern-header-image": "16px solid"
+			"kenzie-pattern-header-image": "16px solid",
+			"background-color-opacity": "hsla(205, 14%, 14%, .80)",
+			"background-box-shadow-opacity": "hsla(205, 14%, 14%, .80)",
+			"box-shadow-opacity": "-0.4rem 0 0 0 hsla(205, 14%, 14%, .80), 0.4rem 0 0 0 hsla(205, 14%, 14%, .80)",
+			"text-color-cover": "var(--wp--preset--color--background) !important"
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--foreground)"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--foreground)"
+				}
+			}
 		}
 	}
 }

@@ -19,6 +19,20 @@
 	border: none;
 }
 
+/* Text on cover image with background for contrast */
+.cover-text p {
+	display: inline;
+	padding: 0.4rem 0.2rem;
+	font-size: 2rem;
+	line-height: 2;
+	color: var(--wp--custom--text-color-cover) !important;
+	border-radius: 4px;
+	background-color: var(--wp--custom--background-color-opacity);
+	box-shadow: var(--wp--custom--background-box-shadow-opacity);
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+}
+
 /* Flat button */
 .is-style-kenzie-flat-button .wp-block-button__link,
 .is-style-kenzie-flat-button .wp-block-button__link:hover,
