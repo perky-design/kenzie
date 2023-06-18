@@ -3,7 +3,6 @@
  * Title: Cover image with overlay text
  * Slug: kenzie/cover-background-image-with-overlay-text
  * Categories: kenzie-images, kenzie-section
- * Block Types: core/heading, core/group, core/post-content
  * Keywords: cover, image, overlay, home, front
  *
  * @package kenzie

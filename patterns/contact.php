@@ -3,7 +3,6 @@
  * Title: Contact
  * Slug: kenzie/contact
  * Categories: kenzie-pages
- * Block Types: core/heading, core/group, core/post-content
  * Keywords: contanct
  *
  * @package kenzie
